@@ -24,8 +24,8 @@ def predict():
 
 @app.route("/automated_testing", methods=['POST'])
 def automated_testing():
-    if 'file' in request.files:
-        f = request.files['file']
+    if 'upload_file' in request.files:
+        f = request.files['upload_file']
         model = "log"
         if 'model' in request.form:
             model = request.form['model']
