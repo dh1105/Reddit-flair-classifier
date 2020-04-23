@@ -56,12 +56,12 @@ the model and to connect with reddit. It also consists of the logistic regressio
    cache-control: no-cache
    Postman-Token: 87036eae-7239-41e4-a045-c6e8d77a1ae5
 
-   Content-Disposition: form-data; name="file"; filename="C:\Reddit_flair_flask_app\example.txt
+   Content-Disposition: form-data; name="upload_file"; filename="C:\Reddit_flair_flask_app\example.txt
 
 
    ------WebKitFormBoundary7MA4YWxkTrZu0gW--
    ```
-   Take note that this expects a file with a link to a Reddit post on every line. The file can have any name but the form data **key must be 'file'**.
+   Take note that this expects a file with a link to a Reddit post on every line. The file can have any name but the form data **key must be 'upload_file'**.
 
 5. To start the frontend, ensure that you have npm installed. You can start the app by issuing the following command.
   ```
